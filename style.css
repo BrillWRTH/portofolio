@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-bottom: 45px;
+  background: #F5F5F5;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #3B4F73;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav {
+  padding: 15.25px;
+  margin: 0.10px;
+}
+  
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0976d6;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+span {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  background: #3498db;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+img.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #3B4F73;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-size: 14px;
+   margin: 0;       
+  left: 0;  
+  right: 0;
+}
+
+.box {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1), 
+              0 2px 8px rgba(0,0,0,0.06);
+   max-width: 800px;
+  margin: 0 auto; 
+}
+
+.box2 {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 1px 10px;
+  margin: 5px auto;
+  width: 100%;
+  display: inline-block;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1), 
+              0 2px 8px rgba(0,0,0,0.06);
+  font-weight: bold;
+  text-align: center;
+}
+
+.box3 {
+  background: #AEC6CF;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 3px 10px;
+  margin: 5px auto;
+  display: inline-block;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1), 
+              0 2px 8px rgba(0,0,0,0.06);
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 20px;
+     }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+      color: #b8b8b8;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      border-radius: 6px;
+      border: none;
+      background: #1d1d1d;
+      color: white;
+      font-size: 14px;
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      color: white;
+      background: #2c3e50 ;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
